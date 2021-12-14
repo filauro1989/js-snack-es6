@@ -1,7 +1,7 @@
 // Scrivere una funzione (e lanciarla :razzo:) che accetti tre argomenti, un array e due numeri (a più piccolo di b).
 // La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
 
-let dio = [
+let numeri = [
     2000,
     20,
     43,
@@ -23,7 +23,7 @@ function snack(array, numero1, numero2) {
     return pippo
 }
 
-let maiale = snack(dio, 0, 5);
+let forbice = snack(numeri, 0, 5);
 
 
-console.log(maiale);
+console.log(forbice);
